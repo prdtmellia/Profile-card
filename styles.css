@@ -1,11 +1,15 @@
 body {
   background-image: url(https://i.pinimg.com/736x/b2/42/67/b242678b5ef68761e9489bdd0681eb03.jpg);
   background-size: cover;
-  font-family: 'poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
 }
 
-
-.container {
+container {
   background-color: white;
   width: 80%;
   margin-left: auto;
