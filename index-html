@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+ <div class="container">
+  <div class="introdunce">
+   <img src="https://i.pinimg.com/736x/de/1f/21/de1f21fd2b54c89eafc1a2dc86ad07af.jpg" class="person">
+    <h1>Amourlia</h1>
+    <p>Jakarta, Infonesia</p>
+    <p class="job">"Front-end developer and avid reader."</p>
+  </div>
+ 
+  <div class="sosmed">
+     <a href="https://github.com/">GitHub</a>
+     <a href="https://www.frontendmentor.io/home">Frontend Mentor</a>
+     <a href="https://id.linkedin.com/">LinkedIn</a>
+     <a href="https://x.com/home">Twiter</a>
+     <a href="https://www.instagram.com/">Instagram</a>
+  </div>
+</div>
+</body>
+</html>
