@@ -1,0 +1,91 @@
+body {
+  background-image: url(https://i.pinimg.com/736x/b2/42/67/b242678b5ef68761e9489bdd0681eb03.jpg);
+  background-size: cover;
+  font-family: 'poppins', sans-serif;
+}
+
+
+.container {
+  background-color: white;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  padding-bottom: 20px;
+}
+
+
+.introdunce {
+  text-align: center;
+}
+
+
+.person {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+}
+
+
+.sosmed {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.sosmed a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: pink;
+  width: 80%;
+  height: 40px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.job {
+  font-size: 14px;
+  color: rgb(201, 12, 53);
+}
+
+.sosmed a:hover {
+  background-color: #ffcccc;
+}
+
+h1, p {
+  margin: 5px auto;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .sosmed a {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .person {
+    width: 80px;
+    height: 80px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
