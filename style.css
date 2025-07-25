@@ -22,7 +22,7 @@ body {
 
 
 .person {
-  display: block;
+  display: block;,
   width: 100px;
   height: 100px;
   margin: 20px auto;
@@ -62,30 +62,5 @@ body {
 
 h1, p {
   margin: 5px auto;
-}
-
-@media (max-width: 600px) {
-  .container {
-    width: 90%;
-    padding: 10px;
-  }
-
-  .sosmed a {
-    width: 100%;
-    font-size: 14px;
-  }
-
-  .person {
-    width: 80px;
-    height: 80px;
-  }
-
-  h1 {
-    font-size: 20px;
-  }
-
-  p {
-    font-size: 14px;
-  }
 }
 
