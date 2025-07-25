@@ -22,7 +22,7 @@ body {
 
 
 .person {
-  display: block;,
+  display: block;
   width: 100px;
   height: 100px;
   margin: 20px auto;
@@ -63,4 +63,3 @@ body {
 h1, p {
   margin: 5px auto;
 }
-
