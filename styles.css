@@ -10,7 +10,7 @@ body {
   margin: 50px auto;
   border-radius: 10px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  padding-bottom: 0 20px;
+  padding: 20px 0px;
 }
 
 
@@ -24,6 +24,8 @@ body {
   width: 100px;
   height: 100px;
   margin: 20px auto;
+  border-radius: 50%;
+  border: 3px solid pink;
 }
 
 
@@ -31,8 +33,6 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  border-radius: 50%;
-  border: 3px solid pink;
 }
 
 
